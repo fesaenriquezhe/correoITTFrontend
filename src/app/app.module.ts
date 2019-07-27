@@ -3,10 +3,12 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { EnviaCorreoComponent } from './envia-correo/envia-correo.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    EnviaCorreoComponent
   ],
   imports: [
     BrowserModule,

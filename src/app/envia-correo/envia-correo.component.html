@@ -1,0 +1,19 @@
+<div class="container-fluid principal_container">
+    <br><br><br><br><br><br>
+    <div class="row">
+        <div class="col-md-6 bg-primary offset-md-3" >
+            <div class="row">
+                <div class="col-md-12">
+                        <br>
+                        <h3 class="text-light">Informa sobre el proceso de inscripción</h3>
+                        <label class="text-light">Ingresa los correos electronicos para enviarles información a su correo</label>
+                        <input type="text" class="form-control" placeholder="correos separados por coma" #correos>
+                        <br>
+                        <button class="btn btn-warning text-light" (click)="enviarCorreos(correos.value)">Enviar correos</button>
+                        <br> <br>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

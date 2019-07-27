@@ -1,0 +1,13 @@
+.principal_container{
+    height: 100vh!important;
+    /* The image used */
+    background-image: url("../../assets/tec.jpg")!important;
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
